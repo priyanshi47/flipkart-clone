@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --main-color: blue;
+}
+
+body {
+    background-color: #f1f3f6;
+}
+
+footer {
+    background-color: var(--main-color);
+    color: white;
+    height: 50px;
+    width: 100vw;
+    margin: 1vh 0vh 0vh 0vh;
+    
+}
+
+header {
+    background-color: var(--main-color);
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: yellow;
+    font-weight: bold;
+}
+
+ul li {
+    display: inline;
+    margin: 10px;
+    padding: 10px;
+    list-style: none;
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    padding: 0px 25px;
+}
+
+.container {
+   padding: 10px 10px 10px 10px;
+    width: 100vw;
+
+
+
+}
+
+.search input {
+    width: 30vw;
+    height: 4vh;
+    margin: 0px 10px 0px 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0px 10px;
+
+
+}
+
+.btn {
+    background-color: var(--main-color);
+    border: 1px solid white;
+    color: white;
+    padding: 5px 5px;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.slider img {
+    width: 80vw;
+    height: 50vh;
+
+}
+
+.slider {
+    margin: 10px auto;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card {
+    max-width: 90vw;
+    margin: auto;
+    background-color: white;
+   padding: 10px 10px 10px 10px;
+
+}
+
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px 15px;
+}
+
+.card img{
+    padding: 10px 0px 0px 0px;
+}
+
+.top {
+
+    max-width: 95vw;
+    margin: auto;
+    background-color: white;
+    padding: 1vh 1vh 1vh 1vh;
+    display: flex;
+
+}
+
+.top img {
+    display: flex;
+    margin: auto;
+    padding: 0vw 1vw 1vw 0vw;
+}
+
+.card h2{
+    margin: 3px 0px;
+    display: block;
+}
+
+.text-centre{
+    text-align: center;
+   
+}
+
+.text-centre-green{
+    text-align: center;
+   color: green;
+}
+
+.head{
+    display: flex;
+    flex-direction: column;
+}
+
